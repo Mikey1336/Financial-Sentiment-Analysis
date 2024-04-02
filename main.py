@@ -1,24 +1,12 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from scipy.special import softmax
-from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.model_selection import RandomizedSearchCV, GridSearchCV, train_test_split
-from sklearn.svm import SVC,LinearSVC
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import RocCurveDisplay, confusion_matrix, accuracy_score ,precision_score,recall_score,f1_score
-from sklearn.tree import DecisionTreeClassifier
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from sklearn import metrics
-import numpy as np
-import operator
-import glob
-import cv2
+import nltk
 import yfinance as yf
 import pandas as pd
-import datetime
-import math
+import matplotlib as plt
 
 nltk.download('vader_lexicon')
 dat = pd.read_excel('twitonomy_elonmusk.xlsx')
