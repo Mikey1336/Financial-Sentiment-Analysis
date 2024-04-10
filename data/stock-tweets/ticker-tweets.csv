@@ -1,0 +1,3 @@
+,id,text,timestamp,source,symbols,company_names,url,verified,average_happiness
+18,1019733557646770200,"['lakers', 'guard', 'hart', 'named', 'summer', 'league', 'mvp', 'and', 'more', 'us', 'sports', 'headlines', 'httpstcorvryaqdpqd', 'httpstcorxiffsl']",Thu Jul 19 00:00:00 +0000 2018,Reuters,ticker, name,https://reut.rs/2L09coy,True,5.6579999999999995
+3369,1017415512811135000,"['when', 'you', 'try', 'to', 'gauge', 'sentiment', 'on', 'a', 'ticker', 'but', 'all', 'that', 'comes', 'up', 'in', 'your', 'search', 'is', 'crypto', 'chatter', 'for', 'a', 'similarly', 'named', 'token']",Thu Jul 12 14:28:55 +0000 2018,provotrout,ticker,,,False,5.482999999999999
